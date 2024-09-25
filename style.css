@@ -1,0 +1,24 @@
+header {
+    display: flex; /* Define o header como um container flex */
+    justify-content: space-between; /* Espaça o conteúdo ao longo do eixo principal */
+    align-items: center; /* Alinha o conteúdo ao longo do eixo cruzado */
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-menu ul {
+    display: flex; /* Define o ul como um container flex */
+    list-style-type: none;
+}
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.product-gallery {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
