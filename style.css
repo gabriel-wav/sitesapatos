@@ -150,12 +150,11 @@ figure {
     flex-wrap: wrap;
     align-content: flex-start;
     text-align: justify
-
 }
 
 figure h3 {
     text-align: center;
-   
+
 }
 
 .textosobre {
@@ -164,16 +163,48 @@ figure h3 {
 
 }
 
+.paragrafososbre {
+    padding: 5px 15px 5px 15px;
+    text-align: justify;
+}
 
+.paragrafososbre2 {
+    padding: 5px 0px 5px 10px;
+    text-align: justify;
+}
 
-main h2{
+main h2 {
     padding: 40px 0 10px 20px;
 }
 
+.venhavisitartexto {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
 
-
-ul{
+.venhavisitartexto ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-hiperlink {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.redes-hiperlink:hover {
+    transform: scale(1.1);
+    /* Efeito ao passar o mouse */
 }
 
 /* INICIO DO CSS DO HTML CONTATO */
@@ -223,10 +254,14 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    max-width: 600px;    /* Largura máxima para o botão */
-    display: block;       /* Para que as margens funcionem */
-    margin-left: auto;    /* Centraliza o botão */
-    margin-right: auto;   /* Centraliza o botão */
+    max-width: 600px;
+    /* Largura máxima para o botão */
+    display: block;
+    /* Para que as margens funcionem */
+    margin-left: auto;
+    /* Centraliza o botão */
+    margin-right: auto;
+    /* Centraliza o botão */
 }
 
 button:hover {
@@ -236,11 +271,15 @@ button:hover {
 .captcha-image {
     display: block;
     margin: 10px auto;
-    width: 200px;  /* Largura desejada */
-    height: 80px;  /* Altura desejada */
-    object-fit: cover; /* Corta a imagem para preencher o espaço definido */
-    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
-   
+    width: 200px;
+    /* Largura desejada */
+    height: 80px;
+    /* Altura desejada */
+    object-fit: cover;
+    /* Corta a imagem para preencher o espaço definido */
+    max-width: 100%;
+    /* Garante que a imagem não exceda a largura do contêiner */
+
 }
 
 /* FINAL DO CSS DO HTML CONTATO */
@@ -257,13 +296,14 @@ footer {
 
 .container h1 {
     color: black;
-    
-}
- .textosobre {
-    padding: 10px 10px 10px 10px;
- }
 
- .sapato1 {
+}
+
+.textosobre {
+    padding: 10px 10px 10px 10px;
+}
+
+.sapato1 {
     justify-content: center;
 
- }
+}
