@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -86,8 +88,7 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html,
-body {
+html {
     height: 100%;
 }
 
@@ -140,7 +141,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    flex-wrap: ;
 
 }
 
@@ -158,23 +158,27 @@ figure h3 {
    
 }
 
-figure p {
+.textosobre {
     padding: 5px 5px 0 10px;
     text-align: justify;
+
 }
+
+
 
 main h2{
-    padding: 40px 0 10px 0;
+    padding: 40px 0 10px 20px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+
+
+ul{
+    list-style: none;
 }
 
-.container {
+/* INICIO DO CSS DO HTML CONTATO */
+
+.contato {
     width: 80%;
     max-width: 600px;
     margin: 50px auto;
@@ -212,13 +216,17 @@ textarea {
 
 button {
     margin-top: 15px;
-    padding: 10px 15px;
+    padding: 15px 15px;
     background-color: #28a745;
     color: white;
-    border: none;
+    border: 1px;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+    max-width: 600px;    /* Largura máxima para o botão */
+    display: block;       /* Para que as margens funcionem */
+    margin-left: auto;    /* Centraliza o botão */
+    margin-right: auto;   /* Centraliza o botão */
 }
 
 button:hover {
@@ -235,6 +243,8 @@ button:hover {
    
 }
 
+/* FINAL DO CSS DO HTML CONTATO */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -249,3 +259,11 @@ footer {
     color: black;
     
 }
+ .textosobre {
+    padding: 10px 10px 10px 10px;
+ }
+
+ .sapato1 {
+    justify-content: center;
+
+ }
